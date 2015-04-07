@@ -7,10 +7,10 @@
 
 			$(document).ready(function(){
 				var sayItLoud= function(size,statement) {
-					$("body").html("<"+size+">"+statement+"</"+size+">");
-				}
+					$("body").append("<" +size+ ">"+ statement + "</"+size+">");
+				};
 
-			sayItLoud("h1","Is this it?")
+			sayItLoud("h1","Is this it?");
 
 			});
 
