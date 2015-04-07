@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My first github assignment</title>
+		<title>How Function Works</title>
 		<script src="https:..code.jquery.com/jquery-latest.min.js"></script>
-		<script src="code.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script>
+
+			$(document).ready(function(){
+				var sayItLoud= function(size,statement) {
+					$("body").html("<"+size+">"+statement+"</"+size+">");
+				}
+
+			sayItLoud("h1","Is this it?")
+
+			});
+
+		</script>
+		
 	</head>
 	<body>
- 		This ain't so bad...
+ 		
 	</body>
 </html>
