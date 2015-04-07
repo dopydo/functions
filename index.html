@@ -7,15 +7,16 @@
 
 			$(document).ready(function(){
 				var sayItLoud= function(size,statement) {
-					if (size="img") {
+					if (size=="img") {
 						$("body").append("<" + size+" src="+statement+"/>");
-					}else{
+					}
+					else{
 					$("body").append("<" +size+ ">"+ statement + "</"+size+">");
 				}
 					}	
 
 			sayItLoud("h1","Is this it?");
-			sayItLoud("img","http://replygif.net/thumbnail/1322.gif")
+			sayItLoud("img","http://replygif.net/thumbnail/1322.gif");
 
 			});
 
